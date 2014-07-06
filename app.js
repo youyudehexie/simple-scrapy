@@ -5,6 +5,7 @@ var async = require('async');
 var startUrl = 'http://cnodejs.org/?page='
 
 var urls = new Urls(startUrl);
+console.log(urls)
 
 urls.next(function(err, topics){
   var self = this;
